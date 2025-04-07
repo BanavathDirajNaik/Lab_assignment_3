@@ -1,0 +1,84 @@
+Successfully loaded data from 'fastapi.json'
+
+--- Identifying Highly Coupled Modules (Top 15 by Fan-In) ---
+  - fastapi                                                 Fan-In: 21    Fan-Out: 9
+  - typing_extensions                                       Fan-In: 18    Fan-Out: 0
+  - fastapi._compat                                         Fan-In: 11    Fan-Out: 7
+  - fastapi.openapi                                         Fan-In: 11    Fan-Out: 0
+  - fastapi.openapi.models                                  Fan-In: 9     Fan-Out: 4
+  - fastapi.exceptions                                      Fan-In: 8     Fan-Out: 1
+  - fastapi.params                                          Fan-In: 7     Fan-Out: 5
+  - fastapi.security                                        Fan-In: 7     Fan-Out: 4
+  - fastapi.security.base                                   Fan-In: 7     Fan-Out: 3
+  - fastapi.datastructures                                  Fan-In: 6     Fan-Out: 3
+  - fastapi.types                                           Fan-In: 6     Fan-Out: 0
+  - fastapi.utils                                           Fan-In: 6     Fan-Out: 5
+  - fastapi.encoders                                        Fan-In: 5     Fan-Out: 4
+  - fastapi.routing                                         Fan-In: 5     Fan-Out: 12
+  - fastapi.dependencies                                    Fan-In: 4     Fan-Out: 0
+  (4 modules found with Fan-In >= 10)
+
+--- Identifying Modules with High Fan-Out (Top 15) ---
+  - __main__                                                Fan-Out: 44    Fan-In: 0
+  - fastapi.openapi.utils                                   Fan-Out: 16    Fan-In: 2
+  - fastapi.dependencies.utils                              Fan-Out: 14    Fan-In: 3
+  - fastapi.applications                                    Fan-Out: 13    Fan-In: 2
+  - fastapi.routing                                         Fan-Out: 12    Fan-In: 5
+  - fastapi                                                 Fan-Out: 9     Fan-In: 21
+  - fastapi.security.oauth2                                 Fan-Out: 9     Fan-In: 3
+  - fastapi.security.http                                   Fan-Out: 8     Fan-In: 2
+  - fastapi._compat                                         Fan-Out: 7     Fan-In: 11
+  - fastapi.param_functions                                 Fan-Out: 6     Fan-In: 3
+  - fastapi.security.api_key                                Fan-Out: 6     Fan-In: 2
+  - fastapi.security.open_id_connect_url                    Fan-Out: 6     Fan-In: 3
+  - fastapi.exception_handlers                              Fan-Out: 5     Fan-In: 2
+  - fastapi.params                                          Fan-Out: 5     Fan-In: 7
+  - fastapi.utils                                           Fan-Out: 5     Fan-In: 6
+  (5 modules found with Fan-Out >= 10)
+
+--- Detecting Cyclic Dependencies (using DFS) ---
+  Found 20 potential cycle(s):
+  Cycle 1: fastapi -> fastapi.applications -> fastapi
+  Cycle 2: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi
+  Cycle 3: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi
+  Cycle 4: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi
+  Cycle 5: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi
+  Cycle 6: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi
+  Cycle 7: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi
+  Cycle 8: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi
+  Cycle 9: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi
+  Cycle 10: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi.openapi.models -> fastapi
+  Cycle 11: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi.openapi.models -> fastapi.openapi.utils -> fastapi
+  Cycle 12: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi.openapi.models -> fastapi.openapi.utils -> fastapi.param_functions -> fastapi
+  Cycle 13: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi.openapi.models -> fastapi.openapi.utils -> fastapi.param_functions -> fastapi.params -> fastapi
+  Cycle 14: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi.openapi.models -> fastapi.openapi.utils -> fastapi.param_functions -> fastapi.params -> fastapi.routing -> fastapi
+  Cycle 15: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi.openapi.models -> fastapi.openapi.utils -> fastapi.param_functions -> fastapi.params -> fastapi.routing -> fastapi.security -> fastapi.security.api_key -> fastapi
+  Cycle 16: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi.openapi.models -> fastapi.openapi.utils -> fastapi.param_functions -> fastapi.params -> fastapi.routing -> fastapi.security -> fastapi.security.api_key -> fastapi.security.base -> fastapi
+  Cycle 17: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi.openapi.models -> fastapi.openapi.utils -> fastapi.param_functions -> fastapi.params -> fastapi.routing -> fastapi.security -> fastapi.security.api_key -> fastapi.security.base -> fastapi.security.http -> fastapi
+  Cycle 18: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi.openapi.models -> fastapi.openapi.utils -> fastapi.param_functions -> fastapi.params -> fastapi.routing -> fastapi.security -> fastapi.security.api_key -> fastapi.security.base -> fastapi.security.http -> fastapi.security.oauth2 -> fastapi
+  Cycle 19: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi.openapi.models -> fastapi.openapi.utils -> fastapi.param_functions -> fastapi.params -> fastapi.routing -> fastapi.security -> fastapi.security.api_key -> fastapi.security.base -> fastapi.security.http -> fastapi.security.oauth2 -> fastapi.security.open_id_connect_url -> fastapi
+  Cycle 20: fastapi -> fastapi.applications -> fastapi.__main__ -> fastapi._compat -> fastapi.datastructures -> fastapi.dependencies.models -> fastapi.dependencies.utils -> fastapi.encoders -> fastapi.exception_handlers -> fastapi.openapi.docs -> fastapi.openapi.models -> fastapi.openapi.utils -> fastapi.param_functions -> fastapi.params -> fastapi.routing -> fastapi.security -> fastapi.security.api_key -> fastapi.security.base -> fastapi.security.http -> fastapi.security.oauth2 -> fastapi.security.open_id_connect_url -> fastapi.utils -> fastapi
+  Note: Cycles indicate tight coupling and potential issues with maintainability & testing.
+
+--- Checking for Unused/Disconnected Modules (Fan-In = 0) ---
+  (No internal modules found with Fan-In = 0, excluding __main__)
+
+--- Calculating Maximum Dependency Depths ---
+Module                                             Max Depth 
+----------------------------------------------------------------------
+fastapi.background                                 1         
+fastapi.exceptions                                 1         
+fastapi.cli                                        0         
+fastapi.concurrency                                0         
+fastapi.dependencies                               0         
+fastapi.logger                                     0         
+fastapi.middleware                                 0         
+fastapi.middleware.cors                            0         
+fastapi.middleware.gzip                            0         
+fastapi.middleware.httpsredirect                   0         
+fastapi.middleware.trustedhost                     0         
+fastapi.middleware.wsgi                            0         
+fastapi.openapi                                    0         
+fastapi.openapi.constants                          0         
+fastapi.requests                                   0         
+  (Note: Depths of -1 indicate cycles or unreachable nodes.)

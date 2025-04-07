@@ -1,0 +1,49 @@
+
+--- Top 20 Modules Sorted by Fan-in (Descending) ---
+Module                                             Fan-In     Fan-Out   
+----------------------------------------------------------------------
+fastapi                                            21         9         
+typing_extensions                                  18         0         
+fastapi._compat                                    11         7         
+fastapi.openapi                                    11         0         
+fastapi.openapi.models                             9          4         
+fastapi.exceptions                                 8          1         
+fastapi.params                                     7          5         
+fastapi.security                                   7          4         
+fastapi.security.base                              7          3         
+fastapi.datastructures                             6          3         
+fastapi.types                                      6          0         
+fastapi.utils                                      6          5         
+fastapi.encoders                                   5          4         
+fastapi.routing                                    5          12        
+fastapi.dependencies                               4          0         
+fastapi.dependencies.models                        4          4         
+fastapi.logger                                     4          0         
+fastapi.background                                 3          1         
+fastapi.dependencies.utils                         3          14        
+fastapi.openapi.constants                          3          0         
+
+--- Top 20 Modules Sorted by Fan-out (Descending) ---
+Module                                             Fan-In     Fan-Out   
+----------------------------------------------------------------------
+__main__                                           0          44        
+fastapi.openapi.utils                              2          16        
+fastapi.dependencies.utils                         3          14        
+fastapi.applications                               2          13        
+fastapi.routing                                    5          12        
+fastapi                                            21         9         
+fastapi.security.oauth2                            3          9         
+fastapi.security.http                              2          8         
+fastapi._compat                                    11         7         
+fastapi.param_functions                            3          6         
+fastapi.security.api_key                           2          6         
+fastapi.security.open_id_connect_url               3          6         
+fastapi.exception_handlers                         2          5         
+fastapi.params                                     7          5         
+fastapi.utils                                      6          5         
+fastapi.dependencies.models                        4          4         
+fastapi.encoders                                   5          4         
+fastapi.openapi.models                             9          4         
+fastapi.security                                   7          4         
+fastapi.datastructures                             6          3         
+

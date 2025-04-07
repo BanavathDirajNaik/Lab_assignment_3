@@ -1,0 +1,760 @@
+{
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "fastapi",
+            "fastapi.__main__",
+            "fastapi._compat",
+            "fastapi.applications",
+            "fastapi.background",
+            "fastapi.cli",
+            "fastapi.concurrency",
+            "fastapi.datastructures",
+            "fastapi.dependencies",
+            "fastapi.dependencies.models",
+            "fastapi.dependencies.utils",
+            "fastapi.encoders",
+            "fastapi.exception_handlers",
+            "fastapi.exceptions",
+            "fastapi.logger",
+            "fastapi.middleware",
+            "fastapi.middleware.cors",
+            "fastapi.middleware.gzip",
+            "fastapi.middleware.httpsredirect",
+            "fastapi.middleware.trustedhost",
+            "fastapi.middleware.wsgi",
+            "fastapi.openapi",
+            "fastapi.openapi.constants",
+            "fastapi.openapi.docs",
+            "fastapi.openapi.models",
+            "fastapi.openapi.utils",
+            "fastapi.param_functions",
+            "fastapi.params",
+            "fastapi.requests",
+            "fastapi.responses",
+            "fastapi.routing",
+            "fastapi.security",
+            "fastapi.security.api_key",
+            "fastapi.security.base",
+            "fastapi.security.http",
+            "fastapi.security.oauth2",
+            "fastapi.security.open_id_connect_url",
+            "fastapi.security.utils",
+            "fastapi.staticfiles",
+            "fastapi.templating",
+            "fastapi.testclient",
+            "fastapi.types",
+            "fastapi.utils",
+            "fastapi.websockets"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "fastapi": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.__main__",
+            "fastapi._compat",
+            "fastapi.applications",
+            "fastapi.datastructures",
+            "fastapi.dependencies.models",
+            "fastapi.dependencies.utils",
+            "fastapi.encoders",
+            "fastapi.exception_handlers",
+            "fastapi.openapi.docs",
+            "fastapi.openapi.models",
+            "fastapi.openapi.utils",
+            "fastapi.param_functions",
+            "fastapi.params",
+            "fastapi.routing",
+            "fastapi.security.api_key",
+            "fastapi.security.base",
+            "fastapi.security.http",
+            "fastapi.security.oauth2",
+            "fastapi.security.open_id_connect_url",
+            "fastapi.utils"
+        ],
+        "imports": [
+            "fastapi.applications",
+            "fastapi.background",
+            "fastapi.datastructures",
+            "fastapi.exceptions",
+            "fastapi.param_functions",
+            "fastapi.requests",
+            "fastapi.responses",
+            "fastapi.routing",
+            "fastapi.websockets"
+        ],
+        "name": "fastapi",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/__init__.py"
+    },
+    "fastapi.__main__": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi.cli"
+        ],
+        "name": "fastapi.__main__",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/__main__.py"
+    },
+    "fastapi._compat": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.datastructures",
+            "fastapi.dependencies.models",
+            "fastapi.dependencies.utils",
+            "fastapi.encoders",
+            "fastapi.openapi.models",
+            "fastapi.openapi.utils",
+            "fastapi.param_functions",
+            "fastapi.params",
+            "fastapi.routing",
+            "fastapi.utils"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi.exceptions",
+            "fastapi.openapi",
+            "fastapi.openapi.constants",
+            "fastapi.params",
+            "fastapi.types",
+            "typing_extensions"
+        ],
+        "name": "fastapi._compat",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/_compat.py"
+    },
+    "fastapi.applications": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi.datastructures",
+            "fastapi.exception_handlers",
+            "fastapi.exceptions",
+            "fastapi.logger",
+            "fastapi.openapi",
+            "fastapi.openapi.docs",
+            "fastapi.openapi.utils",
+            "fastapi.params",
+            "fastapi.routing",
+            "fastapi.types",
+            "fastapi.utils",
+            "typing_extensions"
+        ],
+        "name": "fastapi.applications",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/applications.py"
+    },
+    "fastapi.background": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi",
+            "fastapi.dependencies.utils"
+        ],
+        "imports": [
+            "typing_extensions"
+        ],
+        "name": "fastapi.background",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/background.py"
+    },
+    "fastapi.cli": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.__main__"
+        ],
+        "name": "fastapi.cli",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/cli.py"
+    },
+    "fastapi.concurrency": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.dependencies.utils"
+        ],
+        "name": "fastapi.concurrency",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/concurrency.py"
+    },
+    "fastapi.datastructures": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi",
+            "fastapi.applications",
+            "fastapi.openapi.utils",
+            "fastapi.routing",
+            "fastapi.utils"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi._compat",
+            "typing_extensions"
+        ],
+        "name": "fastapi.datastructures",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/datastructures.py"
+    },
+    "fastapi.dependencies": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.dependencies.utils",
+            "fastapi.openapi.utils",
+            "fastapi.routing"
+        ],
+        "name": "fastapi.dependencies",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/dependencies/__init__.py"
+    },
+    "fastapi.dependencies.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.dependencies.utils",
+            "fastapi.openapi.utils",
+            "fastapi.routing"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi._compat",
+            "fastapi.security",
+            "fastapi.security.base"
+        ],
+        "name": "fastapi.dependencies.models",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/dependencies/models.py"
+    },
+    "fastapi.dependencies.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.openapi.utils",
+            "fastapi.routing"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi._compat",
+            "fastapi.background",
+            "fastapi.concurrency",
+            "fastapi.dependencies",
+            "fastapi.dependencies.models",
+            "fastapi.logger",
+            "fastapi.params",
+            "fastapi.security",
+            "fastapi.security.base",
+            "fastapi.security.oauth2",
+            "fastapi.security.open_id_connect_url",
+            "fastapi.utils",
+            "typing_extensions"
+        ],
+        "name": "fastapi.dependencies.utils",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/dependencies/utils.py"
+    },
+    "fastapi.encoders": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.exception_handlers",
+            "fastapi.openapi.docs",
+            "fastapi.openapi.utils",
+            "fastapi.routing"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi._compat",
+            "fastapi.types",
+            "typing_extensions"
+        ],
+        "name": "fastapi.encoders",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/encoders.py"
+    },
+    "fastapi.exception_handlers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.applications"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi.encoders",
+            "fastapi.exceptions",
+            "fastapi.utils",
+            "fastapi.websockets"
+        ],
+        "name": "fastapi.exception_handlers",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/exception_handlers.py"
+    },
+    "fastapi.exceptions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi",
+            "fastapi._compat",
+            "fastapi.applications",
+            "fastapi.exception_handlers",
+            "fastapi.routing",
+            "fastapi.security.http",
+            "fastapi.security.oauth2"
+        ],
+        "imports": [
+            "typing_extensions"
+        ],
+        "name": "fastapi.exceptions",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/exceptions.py"
+    },
+    "fastapi.logger": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.applications",
+            "fastapi.dependencies.utils",
+            "fastapi.openapi.models"
+        ],
+        "name": "fastapi.logger",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/logger.py"
+    },
+    "fastapi.middleware": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "fastapi.middleware",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/middleware/__init__.py"
+    },
+    "fastapi.middleware.cors": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "fastapi.middleware.cors",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/middleware/cors.py"
+    },
+    "fastapi.middleware.gzip": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "fastapi.middleware.gzip",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/middleware/gzip.py"
+    },
+    "fastapi.middleware.httpsredirect": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "fastapi.middleware.httpsredirect",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/middleware/httpsredirect.py"
+    },
+    "fastapi.middleware.trustedhost": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "fastapi.middleware.trustedhost",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/middleware/trustedhost.py"
+    },
+    "fastapi.middleware.wsgi": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "fastapi.middleware.wsgi",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/middleware/wsgi.py"
+    },
+    "fastapi.openapi": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi._compat",
+            "fastapi.applications",
+            "fastapi.openapi.utils",
+            "fastapi.param_functions",
+            "fastapi.params",
+            "fastapi.security.api_key",
+            "fastapi.security.base",
+            "fastapi.security.http",
+            "fastapi.security.oauth2",
+            "fastapi.security.open_id_connect_url"
+        ],
+        "name": "fastapi.openapi",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/openapi/__init__.py"
+    },
+    "fastapi.openapi.constants": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi._compat",
+            "fastapi.openapi.utils"
+        ],
+        "name": "fastapi.openapi.constants",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/openapi/constants.py"
+    },
+    "fastapi.openapi.docs": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.applications"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi.encoders",
+            "typing_extensions"
+        ],
+        "name": "fastapi.openapi.docs",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/openapi/docs.py"
+    },
+    "fastapi.openapi.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.openapi.utils",
+            "fastapi.param_functions",
+            "fastapi.params",
+            "fastapi.security.api_key",
+            "fastapi.security.base",
+            "fastapi.security.http",
+            "fastapi.security.oauth2",
+            "fastapi.security.open_id_connect_url"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi._compat",
+            "fastapi.logger",
+            "typing_extensions"
+        ],
+        "name": "fastapi.openapi.models",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/openapi/models.py"
+    },
+    "fastapi.openapi.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.applications"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi._compat",
+            "fastapi.datastructures",
+            "fastapi.dependencies",
+            "fastapi.dependencies.models",
+            "fastapi.dependencies.utils",
+            "fastapi.encoders",
+            "fastapi.openapi",
+            "fastapi.openapi.constants",
+            "fastapi.openapi.models",
+            "fastapi.params",
+            "fastapi.responses",
+            "fastapi.routing",
+            "fastapi.types",
+            "fastapi.utils",
+            "typing_extensions"
+        ],
+        "name": "fastapi.openapi.utils",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/openapi/utils.py"
+    },
+    "fastapi.param_functions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi",
+            "fastapi.security.oauth2"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi._compat",
+            "fastapi.openapi",
+            "fastapi.openapi.models",
+            "fastapi.params",
+            "typing_extensions"
+        ],
+        "name": "fastapi.param_functions",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/param_functions.py"
+    },
+    "fastapi.params": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi._compat",
+            "fastapi.applications",
+            "fastapi.dependencies.utils",
+            "fastapi.openapi.utils",
+            "fastapi.param_functions",
+            "fastapi.routing"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi._compat",
+            "fastapi.openapi",
+            "fastapi.openapi.models",
+            "typing_extensions"
+        ],
+        "name": "fastapi.params",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/params.py"
+    },
+    "fastapi.requests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi"
+        ],
+        "name": "fastapi.requests",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/requests.py"
+    },
+    "fastapi.responses": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi",
+            "fastapi.openapi.utils"
+        ],
+        "name": "fastapi.responses",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/responses.py"
+    },
+    "fastapi.routing": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi",
+            "fastapi.applications",
+            "fastapi.openapi.utils",
+            "fastapi.utils"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi._compat",
+            "fastapi.datastructures",
+            "fastapi.dependencies",
+            "fastapi.dependencies.models",
+            "fastapi.dependencies.utils",
+            "fastapi.encoders",
+            "fastapi.exceptions",
+            "fastapi.params",
+            "fastapi.types",
+            "fastapi.utils",
+            "typing_extensions"
+        ],
+        "name": "fastapi.routing",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/routing.py"
+    },
+    "fastapi.security": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.dependencies.models",
+            "fastapi.dependencies.utils",
+            "fastapi.security.api_key",
+            "fastapi.security.http",
+            "fastapi.security.oauth2",
+            "fastapi.security.open_id_connect_url"
+        ],
+        "imports": [
+            "fastapi.security.api_key",
+            "fastapi.security.http",
+            "fastapi.security.oauth2",
+            "fastapi.security.open_id_connect_url"
+        ],
+        "name": "fastapi.security",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/security/__init__.py"
+    },
+    "fastapi.security.api_key": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.security"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi.openapi",
+            "fastapi.openapi.models",
+            "fastapi.security",
+            "fastapi.security.base",
+            "typing_extensions"
+        ],
+        "name": "fastapi.security.api_key",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/security/api_key.py"
+    },
+    "fastapi.security.base": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.dependencies.models",
+            "fastapi.dependencies.utils",
+            "fastapi.security.api_key",
+            "fastapi.security.http",
+            "fastapi.security.oauth2",
+            "fastapi.security.open_id_connect_url"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi.openapi",
+            "fastapi.openapi.models"
+        ],
+        "name": "fastapi.security.base",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/security/base.py"
+    },
+    "fastapi.security.http": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.security"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi.exceptions",
+            "fastapi.openapi",
+            "fastapi.openapi.models",
+            "fastapi.security",
+            "fastapi.security.base",
+            "fastapi.security.utils",
+            "typing_extensions"
+        ],
+        "name": "fastapi.security.http",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/security/http.py"
+    },
+    "fastapi.security.oauth2": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.dependencies.utils",
+            "fastapi.security"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi.exceptions",
+            "fastapi.openapi",
+            "fastapi.openapi.models",
+            "fastapi.param_functions",
+            "fastapi.security",
+            "fastapi.security.base",
+            "fastapi.security.utils",
+            "typing_extensions"
+        ],
+        "name": "fastapi.security.oauth2",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/security/oauth2.py"
+    },
+    "fastapi.security.open_id_connect_url": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.dependencies.utils",
+            "fastapi.security"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi.openapi",
+            "fastapi.openapi.models",
+            "fastapi.security",
+            "fastapi.security.base",
+            "typing_extensions"
+        ],
+        "name": "fastapi.security.open_id_connect_url",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/security/open_id_connect_url.py"
+    },
+    "fastapi.security.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.security.http",
+            "fastapi.security.oauth2"
+        ],
+        "name": "fastapi.security.utils",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/security/utils.py"
+    },
+    "fastapi.staticfiles": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "fastapi.staticfiles",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/staticfiles.py"
+    },
+    "fastapi.templating": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "fastapi.templating",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/templating.py"
+    },
+    "fastapi.testclient": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "fastapi.testclient",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/testclient.py"
+    },
+    "fastapi.types": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi._compat",
+            "fastapi.applications",
+            "fastapi.encoders",
+            "fastapi.openapi.utils",
+            "fastapi.routing"
+        ],
+        "name": "fastapi.types",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/types.py"
+    },
+    "fastapi.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi.applications",
+            "fastapi.dependencies.utils",
+            "fastapi.exception_handlers",
+            "fastapi.openapi.utils",
+            "fastapi.routing"
+        ],
+        "imports": [
+            "fastapi",
+            "fastapi._compat",
+            "fastapi.datastructures",
+            "fastapi.routing",
+            "typing_extensions"
+        ],
+        "name": "fastapi.utils",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/utils.py"
+    },
+    "fastapi.websockets": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "fastapi",
+            "fastapi.exception_handlers"
+        ],
+        "name": "fastapi.websockets",
+        "path": "/Users/banavathdirajnaik/lab_9/fastapi/fastapi/websockets.py"
+    },
+    "typing_extensions": {
+        "bacon": 2,
+        "imported_by": [
+            "fastapi._compat",
+            "fastapi.applications",
+            "fastapi.background",
+            "fastapi.datastructures",
+            "fastapi.dependencies.utils",
+            "fastapi.encoders",
+            "fastapi.exceptions",
+            "fastapi.openapi.docs",
+            "fastapi.openapi.models",
+            "fastapi.openapi.utils",
+            "fastapi.param_functions",
+            "fastapi.params",
+            "fastapi.routing",
+            "fastapi.security.api_key",
+            "fastapi.security.http",
+            "fastapi.security.oauth2",
+            "fastapi.security.open_id_connect_url",
+            "fastapi.utils"
+        ],
+        "name": "typing_extensions",
+        "path": "/Users/banavathdirajnaik/.pyenv/versions/3.11.6/lib/python3.11/site-packages/typing_extensions.py"
+    }
+}
